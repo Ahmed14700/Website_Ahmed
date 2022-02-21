@@ -1,0 +1,43 @@
+#a {
+text-decoration: line-through ;
+}
+#s {
+text-decoration: underline ;
+}
+#d {
+text-decoration: overline ;
+}
+#f {
+text-decoration: none ;
+}
+.as {
+letter-spacing: 2px ;
+text-indent: 30px ;
+line-height: 1.3 ;
+word-spacing: 2px ;
+white-space: norap ;
+width: 50px ; 
+overflow: hidden ;
+text-overflow: ellipsis;
+}
+
+.as : hover {
+
+text-overflow: visible ;
+
+}
+
+
+/*
+
+letter-spacing ==> المسافه بين الاحرف
+text-indent ==> تأخذ مساحه من اليسار
+line-height ==> المسافه بين الاسطر
+word-spacing ==> المسافه بين الكلام
+white-space: norap ==> يجعل الجمل لا تنزل سطر انما تكمل لباقى الشاشه
+white-space: rap ==> تجعل الجمل تنزل سطر تحت بعضها
+text-overflow: ellipsis ==> يجعل هذا يظهر نقط تدل على ان هناك كلام ناقص مثل هذا
+ahmed moh....
+hover ==> عندما نقف على العنصر يعمل كود او شئ
+
+*/
